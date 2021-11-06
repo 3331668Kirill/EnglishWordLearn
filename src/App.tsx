@@ -16,7 +16,7 @@ function App() {
     return (
         <div className="App">
             <MainList title={'Learn English'}
-                      task={word}
+                      word={word}
                       nextEnWordElement={nextEnWordElement}
 
             />
