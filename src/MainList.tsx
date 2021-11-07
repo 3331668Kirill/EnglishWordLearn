@@ -62,8 +62,9 @@ export function MainList(props: PropsType) {
             )
         }
     })
+    const fixAnswer = 'Неправильно, иди учи. Правильный вариант:'
     const answer = answerEl !== 'ПРАВИЛЬНО!!!' && answerEl !== ''
-        ? <div style={{color: 'red'}}>Неправильно, иди учи. Правильный вариант: <br></br>{answerEl}</div>
+        ? <div style={{color: 'red'}}>{fixAnswer} <br></br><div style={{color: 'blue'}}>{answerEl}</div></div>
         : <div style={{color: 'green'}}>{answerEl}</div>
 
     return (<div>
