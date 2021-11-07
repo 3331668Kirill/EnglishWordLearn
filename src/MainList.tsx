@@ -12,20 +12,23 @@ export type StateType = {
     enWord: string
     rusWord: string
     rusWord2?: string
+    rusWord3?:string
 }
 
 export function MainList(props: PropsType) {
     const [translateWord, setTranslateWord] = useState<string>('')
     const [answerEl, setAnswerEl] = useState('')
     const checkAnswer = () => {
-        let rusWord = props.word.map(t => [t.rusWord, t.rusWord2])
-        if (translateWord.toLowerCase().trim() === rusWord[0][0]
-            || translateWord.toLowerCase().trim() === rusWord[0][1]) {
+        let rusWord:Array<Array<string|undefined>> = props.word.map(t => [t.rusWord, t.rusWord2, t.rusWord3])
+        if (   translateWord.toLowerCase().trim() === rusWord[0][0]
+            || translateWord.toLowerCase().trim() === rusWord[0][1]
+            || translateWord.toLowerCase().trim() === rusWord[0][2]) {
 
             setAnswerEl('ПРАВИЛЬНО!!!')
 
         } else {
-            setAnswerEl(`Неправильно, иди учи. Правильный вариант: ${rusWord}`)
+            let answer = rusWord[0].filter(Boolean)
+            setAnswerEl(` ${answer}`)
 
         }
     }
@@ -59,8 +62,8 @@ export function MainList(props: PropsType) {
             )
         }
     })
-    const answer = answerEl !== 'ПРАВИЛЬНО!!!'
-        ? <div style={{color: 'red'}}>{answerEl}</div>
+    const answer = answerEl !== 'ПРАВИЛЬНО!!!' && answerEl !== ''
+        ? <div style={{color: 'red'}}>Неправильно, иди учи. Правильный вариант: <br></br>{answerEl}</div>
         : <div style={{color: 'green'}}>{answerEl}</div>
 
     return (<div>
