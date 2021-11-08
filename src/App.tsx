@@ -2,7 +2,6 @@ import React, {ChangeEvent, KeyboardEvent, useState} from "react";
 import './App.css';
 import {MainList, StateType} from "./MainList";
 import {stateOfWords} from "./state";
-import {Button} from "./components/button";
 import {EnWordList} from "./components/EnWordList";
 
 function App() {
