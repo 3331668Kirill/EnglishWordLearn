@@ -3,6 +3,7 @@ import './App.css';
 import {MainList, StateType} from "./MainList";
 import {stateOfWords} from "./state";
 import {Button} from "./components/button";
+import {EnWordList} from "./components/EnWordList";
 
 function App() {
     let firstWord = [stateOfWords[0]]
@@ -45,12 +46,10 @@ function App() {
         {
             return (
                 <div>
-                    <div>{`${t.enWord} `}
-                        <span>
-                            <Button name={'next word'} callback={nextEnWordElement}/>
-                        </span>
-                    </div>
-
+                    {`${t.enWord} `}
+                    <span>
+                    <EnWordList nextEnWordElement={nextEnWordElement}/>
+                    </span>
                 </div>
             )
         }

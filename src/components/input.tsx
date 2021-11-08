@@ -10,6 +10,7 @@ export const InputField = ({title, changeTitle, onKeyPressAddTask, ...props}: In
 
     return (
         <input
+            style={{width: '230px'}}
             value={title}
             placeholder='введи перевод'
             onChange={changeTitle}
