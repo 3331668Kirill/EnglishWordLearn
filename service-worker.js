@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/EnglishWordLearn/precache-manifest.c14e2a0ef1aa07164419d3d30c264553.js"
+  "/EnglishWordLearn/precache-manifest.659971739496d39b0c1dc079641f0b53.js"
 );
 
 self.addEventListener('message', (event) => {
