@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/EnglishWordLearn/static/css/main.60d2df74.chunk.css",
-    "main.js": "/EnglishWordLearn/static/js/main.f7fea02c.chunk.js",
-    "main.js.map": "/EnglishWordLearn/static/js/main.f7fea02c.chunk.js.map",
+    "main.js": "/EnglishWordLearn/static/js/main.04646233.chunk.js",
+    "main.js.map": "/EnglishWordLearn/static/js/main.04646233.chunk.js.map",
     "runtime-main.js": "/EnglishWordLearn/static/js/runtime-main.caee6869.js",
     "runtime-main.js.map": "/EnglishWordLearn/static/js/runtime-main.caee6869.js.map",
     "static/js/2.9129ab34.chunk.js": "/EnglishWordLearn/static/js/2.9129ab34.chunk.js",
     "static/js/2.9129ab34.chunk.js.map": "/EnglishWordLearn/static/js/2.9129ab34.chunk.js.map",
     "index.html": "/EnglishWordLearn/index.html",
-    "precache-manifest.659971739496d39b0c1dc079641f0b53.js": "/EnglishWordLearn/precache-manifest.659971739496d39b0c1dc079641f0b53.js",
+    "precache-manifest.70571d7829a7ddf7caec582b3a30d809.js": "/EnglishWordLearn/precache-manifest.70571d7829a7ddf7caec582b3a30d809.js",
     "service-worker.js": "/EnglishWordLearn/service-worker.js",
     "static/css/main.60d2df74.chunk.css.map": "/EnglishWordLearn/static/css/main.60d2df74.chunk.css.map",
     "static/js/2.9129ab34.chunk.js.LICENSE.txt": "/EnglishWordLearn/static/js/2.9129ab34.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.caee6869.js",
     "static/js/2.9129ab34.chunk.js",
     "static/css/main.60d2df74.chunk.css",
-    "static/js/main.f7fea02c.chunk.js"
+    "static/js/main.04646233.chunk.js"
   ]
 }
