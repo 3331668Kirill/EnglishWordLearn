@@ -1,12 +1,14 @@
 .App {
-  padding: 250px;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  align-items: stretch;
+  width: 100vw;
+  height: 100vh;
   background-image: url('https://i.pinimg.com/originals/a7/c3/85/a7c3854df162986654e2bcc5bb6d2fbc.jpg');
 
 }
 
-.App > div {
-  margin-right: 50px;
 
-
-}
