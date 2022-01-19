@@ -17,7 +17,7 @@
     background-image: linear-gradient(rgba(179, 132, 201, .84), rgba(57, 31, 91, .84) 50%);
     border-radius: 42px;
     border-width: 0;
-    box-shadow: rgb(57 31 91 / 24%) 0 2px 2px, rgb(179 132 201 / 40%) 0 8px 12px;
+    box-shadow: rgb(57 31 91 ) 0 2px 2px, rgb(179 132 201 ) 0 8px 12px;
     color: #FFFFFF;
     cursor: pointer;
     display: flex;
@@ -31,7 +31,7 @@
     padding: 18px 18px;
     text-align: center;
     text-decoration: none;
-    text-shadow: rgb(255 255 255 / 40%) 0 0 4px, rgb(255 255 255 / 20%) 0 0 12px, rgb(57 31 91 / 60%) 1px 1px 4px, rgb(57 31 91 / 32%) 4px 4px 16px;
+    text-shadow: rgb(255 255 255 ) 0 0 4px, rgb(255 255 255) 0 0 12px, rgb(57 31 91 ) 1px 1px 4px, rgb(57 31 91 ) 4px 4px 16px;
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
