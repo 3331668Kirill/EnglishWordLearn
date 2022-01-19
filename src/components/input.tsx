@@ -1,4 +1,5 @@
 import React, {ChangeEvent, KeyboardEvent} from "react";
+import  '../App.css'
 
 type InputPropsType = {
     title: string
@@ -10,7 +11,7 @@ export const InputField = ({title, changeTitle, onKeyPressAddTask, ...props}: In
 
     return (
         <input
-            style={{width: '230px'}}
+            className={'Input-text'}
             value={title}
             placeholder='введи перевод'
             onChange={changeTitle}

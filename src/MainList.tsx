@@ -22,16 +22,18 @@ export type StateType = {
 export function MainList(props: PropsType) {
 
     return (<div>
-            <h3>{props.title}</h3>
-            <div>{props.enWordElement}</div>
-            <div> -----------------------------------------</div>
+            <h1>{props.title}</h1>
+            <div className={'word'}>{props.enWordElement}</div>
+
             <div>
                 <InputField title={props.translateWord}
                             onKeyPressAddTask={props.onKeyPressAddTask}
                             changeTitle={props.changeTitle}/>
 
                 <Button name={'проверь'} callback={props.checkAnswer}/>
-                {props.answer}
+                <div className={'answer'}>
+                    {props.answer}
+                </div>
             </div>
         </div>
     )
