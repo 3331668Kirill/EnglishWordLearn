@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e65bacf3e254e751dc8daa3e2834d363",
+    "revision": "db0809bea924d20a0b2e31dee6cef34b",
     "url": "/EnglishWordLearn/index.html"
   },
   {
-    "revision": "b74e99dd65a24462aa46",
+    "revision": "f9c9bfd0c4c765df1bdc",
     "url": "/EnglishWordLearn/static/css/main.50957795.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/EnglishWordLearn/static/js/2.42f70db5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b74e99dd65a24462aa46",
-    "url": "/EnglishWordLearn/static/js/main.5545c0f7.chunk.js"
+    "revision": "f9c9bfd0c4c765df1bdc",
+    "url": "/EnglishWordLearn/static/js/main.bb30b248.chunk.js"
   },
   {
     "revision": "d0dd7f022dd981895193",
