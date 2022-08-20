@@ -7,10 +7,11 @@ import {EnWordList} from "./components/EnWordList";
 function App() {
     let firstWord = [stateOfWords[0]]
     const [word, setWord] = useState<Array<StateType>>(firstWord)
+    const [random, setRandom] = useState<number>(0)
     const nextEnWordElement = () => {
-        let random = Math.floor(Math.random() * stateOfWords.length)
+        //let random = Math.floor(Math.random() * stateOfWords.length)
         let newWord = stateOfWords[random]
-        console.log(newWord)
+        setRandom(st=>st+1)
         setWord([newWord])
         setTranslateWord('')
         setAnswerEl('')
