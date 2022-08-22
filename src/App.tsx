@@ -10,11 +10,18 @@ function App() {
     const [random, setRandom] = useState<number>(0)
     const nextEnWordElement = () => {
         //let random = Math.floor(Math.random() * stateOfWords.length)
-        let newWord = stateOfWords[random]
-        setRandom(st=>st+1)
-        setWord([newWord])
-        setTranslateWord('')
-        setAnswerEl('')
+        if (random < stateOfWords.length) {
+            let newWord = stateOfWords[random]
+            setRandom(st => st + 1)
+            setWord([newWord])
+            setTranslateWord('')
+            setAnswerEl('')
+        }
+    }
+    const plus = () => {
+        if (random < stateOfWords.length - 50) {
+            setRandom(st => st + 50)
+        }
     }
     const [translateWord, setTranslateWord] = useState<string>('')
     const [answerEl, setAnswerEl] = useState('')
@@ -71,7 +78,9 @@ function App() {
                       onKeyPressAddTask={onKeyPressAddTask}
                       changeTitle={changeTitle}
                       checkAnswer={checkAnswer}
+                      plus={plus}
                       answer={answer}
+                      random={random}
             />
         </div>
     );
