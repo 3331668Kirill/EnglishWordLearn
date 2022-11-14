@@ -1150,6 +1150,12 @@ export let stateOfWords: Array<StateType> = [
     {enWord: 'Я не мог упустить случай съездить в Японию, это был шанс один на миллион.', rusWord: 'I couldn`t pass up going to Japan, it was a chance in a million.'},
     {enWord: 'Этот дом передавался в семье из поколения в поколение.', rusWord: 'The house has been passed down in the family from generation to generation.'},
     {enWord: 'Я запутался, и пришлось начать всё сначала.', rusWord: 'I got mixed up and had to start over.'},
+    {enWord: 'На фоне таких перемен, одна вещь осталась неизменной.', rusWord: 'Amid such changes, one thing stayed the same.'},
+    {enWord: 'Каждый колебался и задавал себе вопрос, почему медлят остальные.', rusWord: 'Every one of them lingered, and wondered why the rest were lingering.'},
+    {enWord: 'Адреналин хлынул по её венам.', rusWord: 'Adrenalin surged through her veins.'},
+    {enWord: 'В детстве она часто болела.', rusWord: 'She was often sick during her infancy.'},
+    {enWord: 'Возможно, в следующем году наступит прорыв.', rusWord: 'A breakthrough may be possible next year.'},
+    {enWord: '', rusWord: ''},
     {enWord: '', rusWord: ''},
     {enWord: '', rusWord: ''},
 ]
