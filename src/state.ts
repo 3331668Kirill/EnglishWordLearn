@@ -1178,7 +1178,12 @@ export let stateOfWords: Array<StateType> = [
     {enWord: 'Работа должна распределяться более справедливо.', rusWord: 'The work should be shared more equitably.'},
     {enWord: 'Они придерживались своего плана.', rusWord: 'They adhered to their plan.'},
     {enWord: 'Марка не приклеилась.', rusWord: 'The stamp failed to adhere.'},
-    {enWord: '', rusWord: ''},
+    {enWord: 'При столкновении с острыми вопросами они прибегают к запутыванию', rusWord: 'when confronted with sharp questions they resort to obfuscation'},
+    {enWord: 'Конечно, это более чем достоверный источник.', rusWord: 'Surely, that`s a more than credible source.'},
+    {enWord: 'Когда наблюдаешь живое выступление, присутствует какая-то непосредственность, которую нельзя добиться, прослушивая запись.', rusWord: 'There is an immediacy to watching a live performance that you cannot get from hearing a recording'},
+    {enWord: 'Курильщики подвергают своё здоровье большой опасности.', rusWord: 'People who smoke incur a great danger to their health'},
+    {enWord: 'Эти обстоятельства смягчают вину', rusWord: 'The circumstances extenuate the crime.'},
+    {enWord: 'его поступку нет оправдания', rusWord: 'nothing can extenuate his wrong-doings'},
     {enWord: '', rusWord: ''},
     {enWord: '', rusWord: ''},
 ]
