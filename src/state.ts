@@ -1186,6 +1186,4 @@ export let stateOfWords: Array<StateType> = [
     {enWord: 'его поступку нет оправдания', rusWord: 'nothing can extenuate his wrong-doings'},
     {enWord: '', rusWord: ''},
     {enWord: '', rusWord: ''},
-    {enWord: '', rusWord: ''},
-    {enWord: '', rusWord: ''},
 ]
