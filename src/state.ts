@@ -1184,6 +1184,12 @@ export let stateOfWords: Array<StateType> = [
     {enWord: 'Курильщики подвергают своё здоровье большой опасности.', rusWord: 'People who smoke incur a great danger to their health'},
     {enWord: 'Эти обстоятельства смягчают вину', rusWord: 'The circumstances extenuate the crime.'},
     {enWord: 'его поступку нет оправдания', rusWord: 'nothing can extenuate his wrong-doings'},
-    {enWord: '', rusWord: ''},
+    {enWord: 'Маленькие двери висят на петлях, что упрощает монтаж и демонтаж.', rusWord: 'Small doors hang on hinges, thus simplifying installation and disassembly'},
+    {enWord: 'Тонкий металлический корпус, электронная панель управления, длительное время автономной работы — это был плеер мечты.', rusWord: 'Thin metal casing, electronic control panel, long battery life — it was the dream player.'},
+    {enWord: 'Они вездесущи и являются неотъемлемой частью почти всего тропического субконтинента.', rusWord: 'They are omnipresent and are an integral part of almost the entire tropical subcontinent.'},
+    {enWord: 'Насыщенность и яркость даны в процентах.', rusWord: 'Saturation and lightness are given as percentage.'},
+    {enWord: 'Затем мы ставим случайный код, который состоит из восьми байтов.', rusWord: 'Then we put the nonce, which is eight bytes.'},
+    {enWord: 'Отражающий защитный элемент может быть люминесцентным.', rusWord: 'The reflective security feature may be luminescent.'},
+    {enWord: 'Найдите то, что вы можете продать, что привлечет достаточно людей.', rusWord: 'Find something you can sell that will entice enough people.'},
     {enWord: '', rusWord: ''},
 ]
