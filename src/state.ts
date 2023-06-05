@@ -1191,5 +1191,11 @@ export let stateOfWords: Array<StateType> = [
     {enWord: 'Затем мы ставим случайный код, который состоит из восьми байтов.', rusWord: 'Then we put the nonce, which is eight bytes.'},
     {enWord: 'Отражающий защитный элемент может быть люминесцентным.', rusWord: 'The reflective security feature may be luminescent.'},
     {enWord: 'Найдите то, что вы можете продать, что привлечет достаточно людей.', rusWord: 'Find something you can sell that will entice enough people.'},
+    {enWord: 'Это непреодолимое препятствие только в том случае, если предполагается, что нынешние договоренности железобетонные, но это не так.', rusWord: 'That is an insurmountable obstacle only if it is assumed that the current arrangements are set in concrete, but they are not.'},
+    {enWord: 'Он рассматривал свой возраст как переходный период, когда нарастала непреодолимая потребность в переменах.', rusWord: 'He saw his own age as a period of transition in which irresistible pressures for change were building up.'},
+    {enWord: 'Такие доказательства могли якобы освободить предполагаемого отца от ответственности за содержание ребенка.', rusWord: 'Such evidence could ostensibly exonerate a putative father from the responsibility of child support.'},
+    {enWord: 'Не имею ни малейшего представления', rusWord: 'I don`t have the foggiest idea'},
+    {enWord: 'Полный блаженства', rusWord: 'vibrant with bliss'},
+    {enWord: 'Лицо и фигура полны жизни, но никоим образом не скованы старой формальной структурой.', rusWord: 'Face and figure are vibrant with life, yet seem in no way constricted by the old formal structure.'},
     {enWord: '', rusWord: ''},
 ]
