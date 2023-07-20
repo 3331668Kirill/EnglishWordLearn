@@ -1,4 +1,4 @@
-import React, {ChangeEvent} from "react";
+import React, {ChangeEvent, useState} from "react";
 import {Button} from "./components/button";
 import {InputField} from "./components/input";
 
@@ -7,10 +7,12 @@ type PropsType = {
     enWordElement: JSX.Element[]
     translateWord: string
     random: number
+    number: number
     onKeyPressAddTask: (event: React.KeyboardEvent<HTMLInputElement>) => void
     changeTitle: (event: ChangeEvent<HTMLInputElement>) => void
     checkAnswer: () => void
     plus: () => void
+    setNumber: (event: React.ChangeEvent<HTMLInputElement>) => void
     answer: JSX.Element
 
 }
@@ -22,7 +24,7 @@ export type StateType = {
 }
 
 export function MainList(props: PropsType) {
-
+    const [show, setShow] = useState<boolean>(false)
     return (<div>
             <h1>{props.title}</h1>
             <div className={'word'}>{props.random}.{props.enWordElement}</div>
@@ -34,6 +36,13 @@ export function MainList(props: PropsType) {
 
                 <Button name={'проверь'} callback={props.checkAnswer}/>
                 <Button name={'+50'} callback={props.plus}/>
+                <Button name={'введи номер'} callback={()=>setShow(!show)}/>
+                {show && <input
+                    className={'Input-text'}
+                    placeholder='введи номер'
+                    value={props.number}
+                    onChange={props.setNumber}
+                />}
                 <div className={'answer'}>
                     {props.answer}
                 </div>

@@ -23,6 +23,10 @@ function App() {
             setRandom(st => st + 50)
         }
     }
+    const setNumber = (event: ChangeEvent<HTMLInputElement>) => {
+        setRandom(+event.currentTarget.value)
+    }
+
     const [translateWord, setTranslateWord] = useState<string>('')
     const [answerEl, setAnswerEl] = useState('')
     const checkAnswer = () => {
@@ -81,6 +85,8 @@ function App() {
                       plus={plus}
                       answer={answer}
                       random={random}
+                      setNumber={setNumber}
+                      number={random}
             />
         </div>
     );
