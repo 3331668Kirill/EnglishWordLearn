@@ -1214,4 +1214,5 @@ export let stateOfWords: Array<StateType> = [
     {enWord: 'Много воды утекло', rusWord: 'that`s water under the bridge'},
     {enWord: 'всегда помнил ее именно такой', rusWord: 'could remember her no other way'},
     {enWord: 'смотреть правде в глаза (докапываться до сути)', rusWord: 'when you came down to it'},
+    {enWord: 'смотреть правде в глаза (докапываться до сути)', rusWord: 'when you came down to it'},
 ]
